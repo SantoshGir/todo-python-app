@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   ci-web:
-    image: yourusername/todo-crud-app:latest
+    image: santoshgir/todo-python-app:latest
     ports:
       - "6000:5000"
     depends_on:
